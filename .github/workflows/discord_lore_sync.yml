@@ -1,9 +1,8 @@
 name: Among The Stars - Sync Discord lore
 
 on:
-  # Runs on GitHub, independently of your home computer. Schedule may be delayed.
   schedule:
-    - cron: '2-59/5 * * * *'
+    - cron: '3-59/5 * * * *'
   workflow_dispatch:
 
 permissions:
